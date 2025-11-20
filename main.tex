@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper,twoside]{article}
+
+\usepackage{polski}
+\usepackage[utf8x]{inputenc}
+\usepackage[OT4]{fontenc}
+
+\title{Krótki artykuł}
+\author{Piotr Czaja}
+\date{2024.11.02}
+
+
+\usepackage[a4paper,
+            inner=3cm,
+            outer=1cm,
+            top=1cm,
+            bottom=1.6cm]{geometry}
+
+
+\usepackage{multicol}
+
+\linespread{1}
+\usepackage{enumitem}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    Ten artykuł jest testowy i służy do reprezentacji podstawowych możliwości systemu do składania tekstu.
+\end{abstract}
+
+\tableofcontents
+
+
+\begin{multicols}{2}
+
+\input{rozdzial1.tex}
+\input{rozdzial2.tex}
+\input{rozdzial3.tex}
+
+\end{multicols}
+
+
+\end{document}
+
